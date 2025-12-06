@@ -166,6 +166,23 @@ const lessonData: Lesson = {
         'Since variables can only remember a single value, `"Hello"` gets lost when the value of `y` is stored into `x`!',
     } as PRIMMSectionData,
     {
+      kind: "Debugger",
+      id: "swap-value-debugging" as SectionId,
+      title: "Watching a Failed Swap",
+      content: [
+        {
+          kind: "text",
+          value:
+            "Whenever there's something tricky going on in a program, it's good to slow it down so you can understand it. Therefore, let's slow down what went on in the program above with the help of the debugger. Step through the program and pay close attention to how any trace of the string `\"Hello\"` is removed from the program when the line `x = y` is executed. This highlights the fact that variables can only remember one thing, making swapping the values of variables a bit more complex than you might have initially imagined.",
+        },
+      ],
+      example: {
+        visualization: "console",
+        initialCode:
+          'x = "Hello"\ny = "Goodbye"\nx = y\ny = x\nprint(x)\nprint(y)',
+      },
+    } as DebuggerSectionData,
+    {
       kind: "Matching",
       id: "switch-values-question" as SectionId,
       title: "Properly Switch Values",
