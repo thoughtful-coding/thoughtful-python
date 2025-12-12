@@ -76,7 +76,7 @@ const lessonData: Lesson = {
         {
           kind: "text",
           value:
-            "Here's where f-strings get really powerful: you can do math directly inside the curly braces! Python will calculate the result first, then insert it into the string.\n\nFor example the program below reads the value of age and adds one to it inside the curly braces.",
+            "Here's where f-strings get really powerful: you can do math directly inside the curly braces! Python will calculate the result first, then insert it into the string.\n\nFor example, the program below reads the value of age and adds one to it inside the curly braces.",
         },
         {
           kind: "code",

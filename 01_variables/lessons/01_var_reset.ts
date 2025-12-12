@@ -23,7 +23,7 @@ const lessonData: Lesson = {
         {
           kind: "text",
           value:
-            "In the previous lesson, you saw how you can **set** and **read** a variable's value within a program. In this lesson, you'll see how to set the a variable's value _multiple times_. This ability to \"reset\" a variable means that variables can track values as they change throughout a program's execution.\n\nVariables are called variables because they have the ability to change over the course of the program. As you work through the following lessons, imagine new values going in and out of the slot provided by the variable.",
+            "In the previous lesson, you saw how you can **set** and **read** a variable's value within a program. In this lesson, you'll see how to set a variable's value _multiple times_. This ability to \"reset\" a variable means that variables can track values as they change throughout a program's execution.\n\nVariables are called variables because they have the ability to change over the course of the program. As you work through the following lessons, imagine new values going in and out of the slot provided by the variable.",
         },
       ],
     } as InformationSectionData,
@@ -166,7 +166,7 @@ const lessonData: Lesson = {
         {
           kind: "text",
           value:
-            'Variables are fundamental to programming because they allow programs to set, read, and reset data. Without variables, every bit of data would have to be written directly into the code, making programs inflexible and hard to maintain.\n\nNow it\'s time to reflect in order to formalize your knowledge. Create a simple 3-4 line code example that demonstrates how variables can make a program more useful, and write 3-4 sentences explaining how your program works. Remember to use the phrase "as seen in the example above".',
+            'Variables are fundamental to programming because they allow programs to set, read, and reset data. Without variables, every bit of data would have to be written directly into the code, making programs inflexible and hard to maintain.\n\nNow it\'s time to reflect in order to formalize your knowledge. Create a simple 3-4 line code example that demonstrates how variables can make a program more useful and write 3-4 sentences explaining how your program works. Remember to use the phrase "as seen in the example above".',
         },
       ],
       topic: "Why Variables Matter",

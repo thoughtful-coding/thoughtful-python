@@ -10,7 +10,7 @@ import type {
 } from "../../../../src/types/data";
 
 const lessonData: Lesson = {
-  title: "Python Basics",
+  title: "Computers and Text",
   guid: "3c1e0332-e7ec-4e6a-b0c6-f9c9890999c5" as LessonId,
   description:
     "Learn how text is represented in a computer and use this knowledge to write your first Python program.",

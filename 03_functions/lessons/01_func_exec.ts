@@ -57,7 +57,7 @@ const lessonData: Lesson = {
         {
           kind: "text",
           value:
-            'We\'ve use the word "indentation" a lot, but now let\'s define what we mean by that. Indentation means using **two spaces** before you start typing the actual code. This indentation of two spaces shows that a bit of code is "inside" or "within" something else. Note: indentation is an important concept that will come up later.\n\nLet\'s return to the "Happy Birthday" program from before. In this case, your goal is to do the following:\n1. Fix the indentation errors in the functions below\n2. Call the `verse()` and `chorus()` functions to "sing" happy birthday to Alex',
+            'We\'ve used the word "indentation" a lot, but now let\'s define what we mean by that. Indentation means using **two spaces** before you start typing the actual code. This indentation of two spaces shows that a bit of code is "inside" or "within" something else. Note: indentation is an important concept that will come up later.\n\nLet\'s return to the "Happy Birthday" program from before. In this case, your goal is to do the following:\n1. Fix the indentation errors in the functions below\n2. Call the `verse()` and `chorus()` functions to "sing" happy birthday to Alex',
         },
       ],
       example: {

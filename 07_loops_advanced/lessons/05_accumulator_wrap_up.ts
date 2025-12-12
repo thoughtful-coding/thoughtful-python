@@ -164,7 +164,7 @@ const lessonData: Lesson = {
         {
           kind: "text",
           value:
-            "Understanding accumulators means being able to understanding how different inputs affect the output. This function counts characters that match (and don't match) the filter condition. Provide inputs that produce each output:",
+            "Understanding accumulators means being able to understand how different inputs affect the output. This function counts characters that match (and don't match) the filter condition. Provide inputs that produce each output:",
         },
       ],
       example: {

@@ -77,7 +77,7 @@ const lessonData: Lesson = {
         },
       ],
       options: [
-        'Functions require at minimum two spaces for all the code "inside" them',
+        'Functions require a minimum of two spaces for all the code "inside" them',
         "Each new line should be indented by two spaces",
         "Each `turtle` command is required to be at a unique level from the code above",
         'The turtle code is "inside" a loop which is "inside" a function',

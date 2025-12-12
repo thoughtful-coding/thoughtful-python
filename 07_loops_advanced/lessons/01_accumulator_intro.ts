@@ -59,7 +59,7 @@ const lessonData: Lesson = {
         {
           kind: "text",
           value:
-            'The code you just saw uses the **accumulator pattern** for counting. This pattern has four parts:\n\n1. **Accumulator variable**: A variable that starts at `0` and remembers the count (`x = 0`)\n2. **Accumulation step**: The line that updates the count (`x = x + 1`)\n3. **Filter condition**: The `if` statement that decides what to count\n4. **Accumulation result**: Displaying or using the final count (`print(f"Result: {x}")`)\n\nEvery instance of the accumulator pattern uses parts 1 and 2 to set up the loop. Part 3 is needed if you\'re counting specific things (like only red cards, not all cards). Part 4 is how you decide to use your answer once your done computing.',
+            "The code you just saw uses the **accumulator pattern** for counting. This pattern has four parts:\n\n1. **Accumulator variable**: A variable that starts at `0` and remembers the count (`x = 0`)\n2. **Accumulation step**: The line that updates the count (`x = x + 1`)\n3. **Filter condition**: The `if` statement that decides what to count\n4. **Accumulation result**: Displaying or using the final count (`print(f\"Result: {x}\")`)\n\nEvery instance of the accumulator pattern uses parts 1 and 2 to set up the loop. Part 3 is needed if you're counting specific things (like only red cards, not all cards). Part 4 is how you decide to use your answer once you're done computing.",
         },
       ],
     } as InformationSectionData,
@@ -219,12 +219,12 @@ const lessonData: Lesson = {
         {
           kind: "text",
           value:
-            "You've learned the **accumulator pattern** for counting. This pattern lets you keep track of totals as you examine data.\n\nCreate your own example of a accumulator pattern and explain how it works. Your example should:\n- Use a descriptive accumulator variable name (not `x`)\n- Count something specific from a string\n- Include all four parts of the pattern\n\nIn your explanation, identify each of the four parts (accumulator variable, accumulation step, filter condition, and accumulation result) as seen in the example above.",
+            "You've learned the **accumulator pattern** for counting. This pattern lets you keep track of totals as you examine data.\n\nCreate your own example of an accumulator pattern and explain how it works. Your example should:\n- Use a descriptive accumulator variable name (not `x`)\n- Count something specific from a string\n- Include all four parts of the pattern\n\nIn your explanation, identify each of the four parts (accumulator variable, accumulation step, filter condition, and accumulation result) as seen in the example above.",
         },
       ],
       topic: "The Accumulator Pattern for Counting",
       isTopicPredefined: true,
-      code: "Create a accumulator pattern that counts something in a string",
+      code: "Create an accumulator pattern that counts something in a string",
       isCodePredefined: false,
       explanation:
         "Explain your code and identify the four parts of the accumulator pattern (4-5 sentences)",

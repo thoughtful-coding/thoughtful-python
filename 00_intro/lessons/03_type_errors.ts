@@ -13,7 +13,7 @@ const lessonData: Lesson = {
   title: "Interpreting Errors",
   guid: "933ff0c7-8c35-4786-86eb-649c02be6a3c" as LessonId,
   description:
-    "Learn to interpret the errors that Python finds in your code so you can easily fix it.",
+    "Learn to inerpret the errors that Python finds in your code so you can easily fix it.",
   sections: [
     {
       kind: "Information",
@@ -30,7 +30,7 @@ const lessonData: Lesson = {
     {
       kind: "PRIMM",
       id: "primm-type-errors" as SectionId,
-      title: "Data Type Mixup",
+      title: "Data Type Mix-Up",
       content: [
         {
           kind: "text",
@@ -109,7 +109,7 @@ TypeError: unsupported operand type(s) for +: 'int' and 'str'\n\`\`\``,
         "There's an error on line 573 because there's a missing space",
         "There's an error on line 393 because there's a `*` instead of a `+`",
         "There's an error on line 2 because there's a missing end quote",
-        "There's an error on line 145 because there's a missing parentheses",
+        "There's an error on line 145 because there's a missing parenthesis",
       ],
       correctAnswer: 2,
       feedback: {
@@ -145,7 +145,7 @@ TypeError: unsupported operand type(s) for +: 'int' and 'str'\n\`\`\``,
         {
           kind: "text",
           value:
-            "Identifying the **data types** that are being operated on is crucial in understanding how Python works. Accidentally mixing up data types (and getting an error because of it) is one of the biggest sources of frustration for people who are learning to code.\n\nNow it's time to reflect to formalize your knowledge. Create a simple 2-3 line code example that demonstrates the difference between strings and integers, and write 3-4 sentences explaining how the example works.",
+            "Identifying the **data types** that are being operated on is crucial in understanding how Python works. Accidentally mixing up data types (and getting an error because of it) is one of the biggest sources of frustration for people who are learning to code.\n\nNow it's time to reflect to formalize your knowledge. Create a simple 2-3 line code example that demonstrates the difference between strings and integers and write 3-4 sentences explaining how the example works.",
         },
       ],
       topic: "Strings vs. Integers",

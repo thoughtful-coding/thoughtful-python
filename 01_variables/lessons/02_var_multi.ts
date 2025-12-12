@@ -98,7 +98,7 @@ const lessonData: Lesson = {
         {
           kind: "text",
           value:
-            "The program below uses **six different variables**. See if you can track the the different values of each variable in order to determine what would be printed out after the program was run.",
+            "The program below uses **six different variables**. See if you can track the different values of each variable in order to determine what would be printed out after the program was run.",
         },
         {
           kind: "code",
@@ -190,7 +190,7 @@ const lessonData: Lesson = {
         {
           kind: "text",
           value:
-            'To properly switch values, you need something called a "holder variable". This is a third variable to store the value of one of the variables so its doesn\'t get lost during the updates.\n\nOrder the following lines of a program so that `x` gets the value of `y` and `y` gets the value of `x`.',
+            'To properly switch values, you need something called a "holder variable". This is a third variable to store the value of one of the variables so it doesn\'t get lost during the updates.\n\nOrder the following lines of a program so that `x` gets the value of `y` and `y` gets the value of `x`.',
         },
       ],
       prompts: [

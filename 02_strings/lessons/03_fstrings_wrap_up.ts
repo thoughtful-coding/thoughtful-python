@@ -24,7 +24,7 @@ const lessonData: Lesson = {
         {
           kind: "text",
           value:
-            "Over the past three lessons, you've learned how to use f-strings to create informative, human-readable output. You've also reviewed and reinforced your understanding of data types (strings and integers) and variables from earlier units.\n\nThis wrap-up lesson again uses **interleaving** to mix questions about all these topics together. By switching between concepts, your brain has to actively recall what you've learned rather than following a single pattern. This creates stronger, more durable learning.\n\nTake your time with each question. Think carefully about what you've learned, and remember: struggling is how you learn!",
+            "Over the past three lessons, you've learned how to use f-strings to create informative, human-readable output. You've also reviewed and reinforced your understanding of data types (strings and integers) and variables from earlier units.\n\nThis wrap-up lesson again uses **interleaving** to mix questions about all these topics together. By switching between concepts, your brain has to actively recall what you've learned rather than following a single pattern. This creates stronger, more durable learning.\n\nTake your time with each question. Think carefully about what you've learned and remember: struggling is how you learn!",
         },
       ],
     } as InformationSectionData,
@@ -76,7 +76,7 @@ const lessonData: Lesson = {
         {
           kind: "text",
           value:
-            "One of the benefits of f-strings is how much clearly they show how the variables will be output within the string. Match each concatenation attempt with its correct f-string equivalent. Assume all variables are already defined.",
+            "One of the benefits of f-strings is how clearly they show how the variables will be output within the string. Match each concatenation attempt with its correct f-string equivalent. Assume all variables are already defined.",
         },
       ],
       prompts: [

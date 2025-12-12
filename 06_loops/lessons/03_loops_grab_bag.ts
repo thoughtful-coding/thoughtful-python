@@ -81,7 +81,7 @@ const lessonData: Lesson = {
         {
           kind: "text",
           value:
-            "Create a horizontal row of stars using nested loops and positioning:\n\n1. Draw 4 stars in a horizontal row\n2. Each star should have 5 points with sides of 40 pixels\n3. Remember: stars use 144° turns at each point\n4. Stars should be 80 pixels apart horizontally\n5. Use `turtle.penup()` and `turtle.pendown()` to move between stars without drawing\n\nHint: The outer loop positions each star, the inner loop draws the star.",
+            "Create a horizontal row of stars using nested loops and positioning:\n\n1. Draw 4 stars in a horizontal row\n2. Each star should have 5 points with sides of 40 pixels\n3. Remember: stars use 144° turns at each point\n4. Stars should be 80 pixels apart horizontally\n5. Use `turtle.penup()` and `turtle.pendown()` to move between stars without drawing\n\nHint: The outer loop positions each star; the inner loop draws the star.",
         },
       ],
       example: {
@@ -251,7 +251,7 @@ const lessonData: Lesson = {
         {
           kind: "text",
           value:
-            "You've now mastered two types of nested loop patterns: circular arrangements (using rotation) and grid arrangements (using positioning with penup/pendown).\n\nCreate a simple example of nested loops that uses positioning to arrange shapes, and explain how your inner and outer loops work together to create the pattern. Be specific about what each loop controls.",
+            "You've now mastered two types of nested loop patterns: circular arrangements (using rotation) and grid arrangements (using positioning with penup/pendown).\n\nCreate a simple example of nested loops that uses positioning to arrange shapes and explain how your inner and outer loops work together to create the pattern. Be specific about what each loop controls.",
         },
       ],
       topic: "How Nested Loops Create Complex Patterns",

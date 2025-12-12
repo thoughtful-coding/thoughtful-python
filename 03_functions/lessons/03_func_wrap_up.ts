@@ -26,7 +26,7 @@ const lessonData: Lesson = {
         {
           kind: "text",
           value:
-            "You've learned a lot in the previous three lessons: how to create functions, how to call functions, and how to use function input values. As with the previous review section, this lesson uses **interleaving** to help solidify your understanding. By pulling in everything you've learned so far and asking questions about it in a mixed up order, your brain will be able to make stronger connections between the concepts. Be sure to take your time and think carefully about each problem!",
+            "You've learned a lot in the previous three lessons: how to create functions, how to call functions, and how to use function input values. As with the previous review section, this lesson uses **interleaving** to help solidify your understanding. By pulling in everything you've learned so far and asking questions about it in a mixed-up order, your brain will be able to make stronger connections between the concepts. Be sure to take your time and think carefully about each problem!",
         },
       ],
     } as InformationSectionData,
@@ -37,7 +37,7 @@ const lessonData: Lesson = {
       content: [
         {
           kind: "text",
-          value: `Which line does the \`TypeError\` below identify as a problem?:\n\`\`\`\nPyodide Execution Error: 
+          value: `Which line does the \`TypeError\` below identify as a problem:\n\`\`\`\nPyodide Execution Error: 
 Execution Error: Traceback (most recent call last):
   File "/lib/python311.zip/_pyodide/_base.py", line 573, in eval_code_async
     await CodeRunner(
@@ -127,7 +127,7 @@ TypeError: unsupported operand type(s) for +: 'int' and 'str'\n\`\`\``,
         {
           kind: "text",
           value:
-            "Naming functions is a really important part of programming because it helps you understand what a functions _does_. What would be a better name for the function in the program above?",
+            "Naming functions is a really important part of programming because it helps you understand what a function _does_. What would be a better name for the function in the program above?",
         },
       ],
       options: ["`double()`", "`quadruple()`", "`square()`", "`cube()`"],

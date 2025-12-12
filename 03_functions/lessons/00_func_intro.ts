@@ -130,7 +130,7 @@ Run the code and see what happens!`,
       correctAnswers: [0, 2, 5],
       feedback: {
         correct:
-          "Correct! Functions follow a specific pattern, but are incredibly useful.",
+          "Correct! Functions follow a specific pattern but are incredibly useful.",
       },
     } as MultipleSelectionSectionData,
     {

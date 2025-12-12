@@ -137,7 +137,7 @@ const lessonData: Lesson = {
         {
           kind: "text",
           value:
-            "You aren't limited to a single input variable for functions. You can actually use as many as your would like. For example, in the program below, the function has three input variables: `x`, `y`, and `z` input variables . The **function call** then provides three input values for these input variables:\n- `5` -> `x`\n- `2` -> `y`\n- `3` -> `z`.\n\nBased on this explanation, what would the following program print out?",
+            "You aren't limited to a single input variable for functions. You can actually use as many as you would like. For example, in the program below, the function has three input variables: `x`, `y`, and `z` input variables . The **function call** then provides three input values for these input variables:\n- `5` -> `x`\n- `2` -> `y`\n- `3` -> `z`.\n\nBased on this explanation, what would the following program print out?",
         },
         {
           kind: "code",

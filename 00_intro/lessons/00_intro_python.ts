@@ -112,7 +112,7 @@ const lessonData: Lesson = {
       options: [
         '"The user is doing math. I should get my math chip ready."',
         '"I know math can be hard for humans, so I will double check my work."',
-        '"I have been given an an input `2 + 2`. I will execute the `2 + 2` operation."',
+        '"I have been given an input `2 + 2`. I will execute the `2 + 2` operation."',
         '"This is a simple problem. I should check if there\'s a harder one."',
       ],
       correctAnswer: 2,

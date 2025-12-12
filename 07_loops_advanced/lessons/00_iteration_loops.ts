@@ -81,7 +81,7 @@ const lessonData: Lesson = {
         {
           kind: "text",
           value:
-            "Below is example of an another iteration loop. This time, however, we're using f-string to format the output. Predict what will be printed:",
+            "Below is example of another iteration loop. This time, however, we're using f-string to format the output. Predict what will be printed:",
         },
       ],
       example: {
@@ -119,7 +119,7 @@ const lessonData: Lesson = {
         {
           kind: "text",
           value:
-            "Now that you've seen both range loops and iteration loops, it's important to understand when to use one over the other. In short: if you want to have access to the individual parts of of data (such as the characters in a string), you should use an iteration loop. Otherwise, you should use a range loop.\n\nGive this explanation, match each task to the appropriate loop type:",
+            "Now that you've seen both range loops and iteration loops, it's important to understand when to use one over the other. In short: if you want to have access to the individual parts of data (such as the characters in a string), you should use an iteration loop. Otherwise, you should use a range loop.\n\nGive this explanation, match each task to the appropriate loop type:",
         },
       ],
       prompts: [
@@ -152,7 +152,7 @@ const lessonData: Lesson = {
         "Both types of loops must use the variable name `i`",
         "In iteration loops, the loop variable automatically changes to each character",
         "Range loops are better for examining strings character by character",
-        "Both types of loop start with `for`",
+        "Both types of loops start with `for`",
       ],
       correctAnswers: [0, 1, 3, 5],
       feedback: {
@@ -248,7 +248,7 @@ const lessonData: Lesson = {
         {
           kind: "text",
           value:
-            "You now have two types of loops in your programming toolkit:\n- **Range loops** (`for i in range(n):`) repeat actions a specific number of times\n- **Iteration loops** (`for char in string:`) examine each character in a string\n\nCreate a simple example showing one of each type of loop, and explain when you would use each one. Remember to use the phrase 'as seen in the example above'.",
+            "You now have two types of loops in your programming toolkit:\n- **Range loops** (`for i in range(n):`) repeat actions a specific number of times\n- **Iteration loops** (`for char in string:`) examine each character in a string\n\nCreate a simple example showing one of each type of loop and explain when you would use each one. Remember to use the phrase 'as seen in the example above'.",
         },
       ],
       topic: "When to Use Range vs Iteration Loops",

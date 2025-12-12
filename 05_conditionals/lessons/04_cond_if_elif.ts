@@ -330,7 +330,7 @@ const lessonData: Lesson = {
         {
           kind: "text",
           value:
-            "Excellent work! You've learned how to create functions with multiple paths using `elif`. Key takeaways:\n- `elif` creates additional paths between if and else\n- Python checks conditions from top to bottom\n- The FIRST True condition wins - all others are skipped\n- Order matters! Check more specific or extreme conditions first\n- You can have as many `elif` statements as needed\n- Every input takes exactly ONE path through your code\n\nYou can now handle any number of choices: two paths (`if`/`else`), three paths (`if`/`elif`/`else`), or many paths (`if`/`elif`/`elif`.../`else`).\n\nIn the next lesson, you'll learn about boolean operators that let you check multiple things at once - like requiring BOTH a password AND permission, or offering discounts to students OR seniors.",
+            "Excellent work! You've learned how to create functions with multiple paths using `elif`. Key takeaways:\n- `elif` creates additional paths between if and else\n- Python checks conditions from top to bottom\n- The FIRST True condition wins - all others are skipped\n- Order matters! Check more specific or extreme conditions first\n- You can have as many `elif` statements as needed\n- Every input takes exactly ONE path through your code\n\nYou can now handle any number of choices: two paths (`if`/`else`), three paths (`if`/`elif`/`else`), or many paths (`if`/`elif`/`elif`.../`else`).\n\nIn the next lesson, you'll learn about Boolean operators that let you check multiple things at once - like requiring BOTH a password AND permission, or offering discounts to students OR seniors.",
         },
       ],
     } as InformationSectionData,

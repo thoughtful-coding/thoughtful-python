@@ -83,7 +83,7 @@ const lessonData: Lesson = {
         initialCode: 'print(5 + 5)\nprint("5" + "5")',
       },
       predictPrompt:
-        "The two print statements above will print out different things. This is because in one case the `+` is operating on **integers** and in the other case the `+` is operating on **strings**. What do you think the will happen when you run the code?",
+        "The two print statements above will print out different things. This is because in one case the `+` is operating on **integers** and in the other case the `+` is operating on **strings**. What do you think will happen when you run the code?",
       conclusion:
         "When you use `+` with two **integers**, the result is addition. When you use `+` with two **strings**, the result is combining (technically called concatenation)",
     } as PRIMMSectionData,

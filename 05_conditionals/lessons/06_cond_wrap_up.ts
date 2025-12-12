@@ -82,7 +82,7 @@ const lessonData: Lesson = {
         {
           kind: "text",
           value:
-            "After reviewing data types, let's practice with functions and boolean operators. This function checks two conditions with `and`. Provide input combinations that produce each output:",
+            "After reviewing data types, let's practice with functions and Boolean operators. This function checks two conditions with `and`. Provide input combinations that produce each output:",
         },
       ],
       example: {
@@ -184,7 +184,7 @@ const lessonData: Lesson = {
         {
           kind: "text",
           value:
-            "Create a function `report_grade(name, score)` that assigns letter grades and reports them using f-strings:\n\n- If score >= 90: print '[name] earned an A with score [score]'\n- Elif score >= 80: print '[name] earned a B with score [score]'\n- Elif score >= 70: print '[name] earned a C with score [score]'\n- Elif score >= 60: print '[name] earned a D with score [score]'\n- Else: print '[name] earned an F with score [score]'\n\nThis combines: functions, elif chains, f-strings, and proper ordering!",
+            "Create a function `report_grade(name, score)` that assigns letter grades and reports them using f-strings:\n\n- If score >= 90: print '[name] earned an A with score [score]'\n- Elif score >= 80: print '[name] earned a B with score [score]'\n- Elif score >= 70: print '[name] earned a C with score [score]'\n- Elif score >= 60: print '[name] earned a D with score [score]'\n- Else: print '[name] earned an F with score [score]'\n\nThis combines functions, elif chains, f-strings, and proper ordering!",
         },
       ],
       example: {
@@ -220,7 +220,7 @@ const lessonData: Lesson = {
         {
           kind: "text",
           value:
-            "Understanding how boolean operators evaluate is key to writing correct conditions. Python evaluates in a specific order: parentheses first, then comparisons, then `and`, then `or`.\n\nGiven age = 16 and is_student = True, select all conditions that evaluate to True:",
+            "Understanding how Boolean operators evaluate is key to writing correct conditions. Python evaluates in a specific order: parentheses first, then comparisons, then `and`, then `or`.\n\nGiven age = 16 and is_student = True, select all conditions that evaluate to True:",
         },
       ],
       options: [
@@ -245,7 +245,7 @@ const lessonData: Lesson = {
         {
           kind: "text",
           value:
-            "After practicing boolean operators, let's test your understanding with a more complex condition combining `and` and `or`. This function gives free admission if you're a young child OR if you're a member (regardless of age). Provide input combinations for each output:",
+            "After practicing Boolean operators, let's test your understanding with a more complex condition combining `and` and `or`. This function gives free admission if you're a young child OR if you're a member (regardless of age). Provide input combinations for each output:",
         },
       ],
       example: {
@@ -386,7 +386,7 @@ const lessonData: Lesson = {
       ],
       feedback: {
         correct:
-          "Excellent! Choosing the right structure makes your code clearer and prevents bugs. elif for one-of-many, multiple ifs for independent checks, if/else for binary choices, and boolean operators to combine conditions!",
+          "Excellent! Choosing the right structure makes your code clearer and prevents bugs. elif for one-of-many, multiple ifs for independent checks, if/else for binary choices, and Boolean operators to combine conditions!",
       },
     } as MatchingSectionData,
     {

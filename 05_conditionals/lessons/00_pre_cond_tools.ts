@@ -5,7 +5,6 @@ import type {
   SectionId,
   PRIMMSectionData,
   MultipleChoiceSectionData,
-  DebuggerSectionData,
   MatchingSectionData,
   MultipleSelectionSectionData,
   PredictionSectionData,
@@ -26,11 +25,10 @@ const lessonData: Lesson = {
         {
           kind: "text",
           value:
-            "In the next unit, you'll learn how to make your programs make decisions using `if` statements. But to make a good decision, you first need to *ask questions*.\n\nFor example, you can't decide 'is this password valid?' unless you can first *ask*: 'How long is it?' and 'Does it contain a capital letter?'\n\nThis lesson will let you explore Python's 'question toolkit'—a set of built-in tools for inspecting your data.",
+            'In this unit, you\'ll learn how to have your programs make decisions. Before we jump into this new topic, however, we\'re going to pause and have a "mini-unit" on how to use Python to ask questions about the data stored within the program. The reason we\'re doing this is you can\'t create a program that decides "is this password valid?" unless you can first *ask questions* like: "How long is the password?" and "Does the password contain a capital letter?"\n\nThis lesson will let you explore Python\'s "question answering toolkit" — a set of built-in tools for inspecting your data.',
         },
       ],
     } as InformationSectionData,
-
     {
       kind: "PRIMM",
       id: "len-primm" as SectionId,
@@ -39,7 +37,7 @@ const lessonData: Lesson = {
         {
           kind: "text",
           value:
-            "Our first tool is the `len()` function. It answers the question, 'How many characters are in this string?'\n\nThis is a new *kind* of function. It doesn't `print`—it *gives you back a number*. Let's see it in action.",
+            'The first element of our "question answering toolkit" is the `len()` function. It answers the question "How many characters are in this string?". Just like functions from the `math` library, the `len()` function *gives you back a number*. Let\'s see it in action.',
         },
         {
           kind: "image",
@@ -50,14 +48,13 @@ const lessonData: Lesson = {
       example: {
         visualization: "console",
         initialCode:
-          'print(len("Hello"))\nprint(len("abc123"))\nprint(len("Hi!"))\nprint(len("a b c"))',
+          'x = len("Hi!")\ny = len("abc123")\nz = len("a b c")\nprint(f"{x}, {y}, {z}")',
       },
       predictPrompt:
-        "What number will each of the four `print` statements output? Pay close attention to the last one!",
+        "What number will be printed out? Pay close attention to the last one!",
       conclusion:
-        "It prints 5, 6, 3, and 5. `len()` gives you back a *number* representing the total count of *all* characters, including spaces and punctuation.",
+        "It prints 3, 6, and 5. `len()` gives you back a *number* representing the total count of *all* characters, including spaces and punctuation.",
     } as PRIMMSectionData,
-
     {
       kind: "MultipleChoice",
       id: "len-quiz" as SectionId,
@@ -75,25 +72,6 @@ const lessonData: Lesson = {
           "Correct! The characters are 'H', 'i', ' ', 't', 'h', 'e', 'r', 'e', '!', for a total of 9.",
       },
     } as MultipleChoiceSectionData,
-
-    {
-      kind: "Debugger",
-      id: "len-debugger" as SectionId,
-      title: "Watching `len()` Give a Value",
-      content: [
-        {
-          kind: "text",
-          value:
-            "Let's slow down and see that 'give back a value' idea up close. The `len()` function *gives* its number answer to the variable on the left of the `=`.\n\nStep through this code and watch the **Variables** panel. See how `word_length` gets the *number* `6` from the `len()` function. This is a powerful new concept!",
-        },
-      ],
-      example: {
-        visualization: "console",
-        initialCode:
-          'text = "Python"\nprint(f"Checking length of \'{text}\'")\nword_length = len(text)\nprint(f"The variable \'word_length\' is now: {word_length}")',
-      },
-    } as DebuggerSectionData,
-
     {
       kind: "PRIMM",
       id: "in-primm" as SectionId,
@@ -102,18 +80,18 @@ const lessonData: Lesson = {
         {
           kind: "text",
           value:
-            "The `in` operator is our next tool. It checks if one string is *inside* another and gives back one of two special keywords: `True` or `False`. These are the heart of `if` statements.",
+            'The `in` operator is the next member of our "question answering toolkit". It checks if one string is *inside* (aka a substring of) another and gives back one of two special keywords: `True` or `False`.',
         },
       ],
       example: {
         visualization: "console",
         initialCode:
-          "word = \"apple\"\nprint(f\"'a' in 'apple'?  {'a' in word}\")\nprint(f\"'z' in 'apple'?  {'z' in word}\")\nprint(f\"'A' in 'apple'?  {'A' in word}\")\nprint(f\"'pl' in 'apple'? {'pl' in word}\")",
+          'word = "apple"\n\nhas_a = "a" in word\nhas_A = "A" in word\nhas_pl = "pl" in word\n\nprint(f\'Has "a", {has_a}, Has "A", {has_A}, Has "pl", {has_pl}")',
       },
       predictPrompt:
-        "What will each of the four `print` statements output: `True` or `False`? Pay close attention to case sensitivity!",
+        "What combination of `True` and `False` will the print statement output? Pay close attention to case sensitivity!",
       conclusion:
-        "`in` gives back `True` if it finds the substring and `False` if it doesn't. It is case-sensitive! These `True`/`False` answers are exactly what `if` statements need.",
+        "`in` gives back `True` if it finds the substring and `False` if it doesn't. It is case-sensitive!",
     } as PRIMMSectionData,
 
     {
@@ -145,7 +123,7 @@ const lessonData: Lesson = {
         {
           kind: "text",
           value:
-            "Finally, strings have special functions 'attached' to them with a dot (`.`). These are called **methods**. They also give back `True` or `False`.",
+            'The final member(s) of our "question answering toolkit" are the special functions that strings have "attached" to them. For example, we can ask questions of the string `"Hi"` by doing things like `"Hi".islower()`. This would be `False` since `"Hi"` has an uppercase `"H"`.\n\nThe fact that strings are similar to the `math` library in that you can access functions with a `.` is definitely a little surprising. In all honesty, there are functions hiding everywhere in Python (if you know where to look), but for now we\'re just going to limit it to three you\'ll have to remember: `islower()`, `isuppoer()` and `isdigit()`.',
         },
         {
           kind: "image",
@@ -156,7 +134,7 @@ const lessonData: Lesson = {
       example: {
         visualization: "console",
         initialCode:
-          'char1 = "X"\nchar2 = "y"\nchar3 = "3"\nprint(f"\'{char1}\'.isupper() is {char1.isupper()}")\nprint(f"\'{char2}\'.islower() is {char2.islower()}")\nprint(f"\'{char3}\'.isdigit() is {char3.isdigit()}")\nprint(f"\'{char1}\'.islower() is {char1.islower()}") # A check that will be False',
+          'word = "HI"\n\nvar_1 = word.isupper()\nvar_2 = word.islower()\nvar_3 = word.isdigit()\n\nprint(f"isupper(), {var_1}, islower(), {var_2}, isdigit(), {var_3}")',
       },
       predictPrompt:
         "For each of the four `print` statements, predict the `True`/`False` output.",
@@ -172,7 +150,7 @@ const lessonData: Lesson = {
         {
           kind: "text",
           value:
-            "Given `text = 'Hi 5'` (which contains 'H', 'i', ' ', and '5'), which of the following expressions would produce `True`?",
+            "Given `text = 'Hi 5'`, which of the following expressions would produce `True`? Select all **three**:",
         },
       ],
       options: [
@@ -186,7 +164,7 @@ const lessonData: Lesson = {
       correctAnswers: [3, 4, 5],
       feedback: {
         correct:
-          "Correct! `text` itself is not upper, lower, or all digits. But 'i' *is* in `text`, its length *is* 4, and the *character* '5' *is* a digit.",
+          "Correct! `text` itself is not all upper, all lower, or all digits.",
       },
     } as MultipleSelectionSectionData,
 

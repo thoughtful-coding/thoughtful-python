@@ -70,7 +70,7 @@ const lessonData: Lesson = {
       correctAnswer: 3,
       feedback: {
         correct:
-          "Correct! The outer loop runs 3 times, and for EACH of those times, the inner loop runs 4 times. So 3 × 4 = 12 total `forward()` calls.",
+          "Correct! The outer loop runs 3 times, and for EACH of those times, the inner loop runs 4 times. So 3 x 4 = 12 total `forward()` calls.",
       },
     } as MultipleChoiceSectionData,
     {
@@ -81,7 +81,7 @@ const lessonData: Lesson = {
         {
           kind: "text",
           value:
-            "Let's slow down and watch how nested loops actually work with just some simple print statements. Step through this code and pay attention to:\n- The inner loop completing fully before the outer loop continues\n- The fact that the `Hi from the inner loop` line is printed 2 × 3 = 6 times\n- How the `print()` statements around the inner loop only run twice each",
+            "Let's slow down and watch how nested loops actually work with just some simple print statements. Step through this code and pay attention to:\n- The inner loop completing fully before the outer loop continues\n- The fact that the `Hi from the inner loop` line is printed 2 x 3 = 6 times\n- How the `print()` statements around the inner loop only run twice each",
         },
       ],
       example: {
@@ -195,7 +195,7 @@ const lessonData: Lesson = {
         {
           kind: "text",
           value:
-            "Now create a more complex flower pattern:\n\n1. Draw a flower with 5 pentagon petals\n2. Each pentagon should have 5 sides of 40 pixels each\n3. Remember: pentagons turn 72° at each corner\n4. The petals should be evenly spaced around the center (360° ÷ 5 = 72°)\n\nHint: You'll need a loop inside a loop—the outer loop arranges the petals, the inner loop draws each pentagon.",
+            "Now create a more complex flower pattern:\n\n1. Draw a flower with 5 pentagon petals\n2. Each pentagon should have 5 sides of 40 pixels each\n3. Remember: pentagons turn 72° at each corner\n4. The petals should be evenly spaced around the center (360° ÷ 5 = 72°)\n\nHint: You'll need a loop inside a loop — the outer loop arranges the petals and the inner loop draws each pentagon.",
         },
       ],
       example: {

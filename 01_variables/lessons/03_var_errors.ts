@@ -40,7 +40,7 @@ const lessonData: Lesson = {
         {
           kind: "text",
           value:
-            'This would result in the following `NameError`:\n```\nNameError: Traceback (most recent call last):\n  File "/lib/python311.zip/_pyodide/_base.py", line 573, in eval_code_async\n    await CodeRunner(\n  File "/lib/python311.zip/_pyodide/_base.py", line 393, in run_async\n    coroutine = eval(self.code, globals, locals)\n                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "<exec>", line 2, in <module>\nNameError: name \'numbr\' is not defined\n```\nThe error is saying is that the the computer failed because it couldn\'t find a variable named `numbr` on line 2. This makes sense because the program misspelled the variable `number` that was created on the previous line.',
+            'This would result in the following `NameError`:\n```\nNameError: Traceback (most recent call last):\n  File "/lib/python311.zip/_pyodide/_base.py", line 573, in eval_code_async\n    await CodeRunner(\n  File "/lib/python311.zip/_pyodide/_base.py", line 393, in run_async\n    coroutine = eval(self.code, globals, locals)\n                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "<exec>", line 2, in <module>\nNameError: name \'numbr\' is not defined\n```\nThe error is saying is that the computer failed because it couldn\'t find a variable named `numbr` on line 2. This makes sense because the program misspelled the variable `number` that was created on the previous line.',
         },
       ],
     } as InformationSectionData,
@@ -78,7 +78,7 @@ const lessonData: Lesson = {
         {
           kind: "text",
           value:
-            'Computers will execute Python programs up until they hit an error. This means that you can end up with a program that partially works, and then breaks in the middle.\n\nOrder the following lines of a program so that the program would print out `8`, `13` and then "raise" a `NameError`',
+            'Computers will execute Python programs up until they hit an error. This means that you can end up with a program that partially works and then breaks in the middle.\n\nOrder the following lines of a program so that the program would print out `8`, `13` and then "raise" a `NameError`',
         },
       ],
       puzzle: {

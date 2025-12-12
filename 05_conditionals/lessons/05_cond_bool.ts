@@ -27,7 +27,7 @@ const lessonData: Lesson = {
         {
           kind: "text",
           value:
-            "So far, your conditionals have checked one thing at a time: `if age >= 18:` or `if score > 90:`. But sometimes you need to check multiple things at once.\n\nThink about a roller coaster: you need to be tall enough AND old enough to ride. Or think about movie theater discounts: you get a discount if you're a student OR a senior citizen.\n\nThat's where **boolean operators** come in. They let you combine conditions:\n- `and`: BOTH conditions must be True\n- `or`: AT LEAST ONE condition must be True\n- `not`: Flips True to False (and False to True)\n\nThese operators let your functions make complex decisions based on multiple factors.",
+            "So far, your conditionals have checked one thing at a time: `if age >= 18:` or `if score > 90:`. But sometimes you need to check multiple things at once.\n\nThink about a roller coaster: you need to be tall enough AND old enough to ride. Or think about movie theater discounts: you get a discount if you're a student OR a senior citizen.\n\nThat's where **Boolean operators** come in. They let you combine conditions:\n- `and`: BOTH conditions must be True\n- `or`: AT LEAST ONE condition must be True\n- `not`: Flips True to False (and False to True)\n\nThese operators let your functions make complex decisions based on multiple factors.",
         },
       ],
     } as InformationSectionData,
@@ -326,7 +326,7 @@ const lessonData: Lesson = {
         {
           kind: "text",
           value:
-            "Boolean operators (`and`, `or`, `not`) let you combine simple conditions into complex decisions. With `and`, all conditions must be True. With `or`, at least one must be True. With `not`, you flip the value.\n\nCreate a function using at least one `and` and one `or` to make a complex decision. Explain how the boolean operators work together in your example. Remember to use the phrase 'as seen in the example above'.",
+            "Boolean operators (`and`, `or`, `not`) let you combine simple conditions into complex decisions. With `and`, all conditions must be True. With `or`, at least one must be True. With `not`, you flip the value.\n\nCreate a function using at least one `and` and one `or` to make a complex decision. Explain how the Boolean operators work together in your example. Remember to use the phrase 'as seen in the example above'.",
         },
       ],
       topic: "How Boolean Operators Combine Conditions",
@@ -334,7 +334,7 @@ const lessonData: Lesson = {
       code: "Create a function using both 'and' and 'or'",
       isCodePredefined: false,
       explanation:
-        "Explain how your boolean operators create the logic (3-4 sentences)",
+        "Explain how your Boolean operators create the logic (3-4 sentences)",
       isExplanationPredefined: false,
     } as ReflectionSectionData,
   ],
